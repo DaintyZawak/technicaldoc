@@ -72,8 +72,10 @@ table {
 
 th, tr, td {
     margin: 20px;
+    padding: 10px;
     text-align: justify;
 }
+
 tr:nth-child(odd) {
     background-color: #f1f1f1;
 }
@@ -118,8 +120,12 @@ nav {
     }
 
     table {
-        width: 400px;
+        width: 350px;
+        margin: auto;
+        
     }
+
+    
 
     button {
         width: 120px;
